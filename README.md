@@ -4,7 +4,7 @@ A comprehensive study and implementation of the Early Bird APC (Asynchronous Pro
 
 ## 📚 Overview
 
-This project explores the Early Bird injection technique, a sophisticated process injection method that executes code before a process's main thread begins. The implementation includes:
+This project explores the Early Bird injection technique, a process injection method that executes code before a process's main thread begins. The implementation includes:
 
 - **Remote Payload Staging**: Downloads shellcode from a web server
 - **Process Manipulation**: Creates suspended processes using Windows debugging APIs
